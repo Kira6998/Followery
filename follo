@@ -3,65 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Likes Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            scroll-behavior: smooth;
-        }
-        .container {
-            text-align: center;
-        }
-        .likes {
-            margin: 10px 0;
-        }
-        .footer {
-            margin-top: 20px;
-        }
-        .button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: black;
-            color: white;
-            border: none;
-            cursor: pointer;
-            transition: transform 0.3s ease, background-color 0.3s ease;
-        }
-        .button:hover {
-            transform: scale(1.1);
-            background-color: #333;
-        }
-    </style>
+    <title>My GitHub Page</title>
 </head>
 <body>
-    <div class="container">
-        <h1 id="title">LIKES PAGE</h1>
-        <div class="likes">1000 likes = ₹29</div>
-        <div class="likes">2000 likes = ₹58</div>
-        <div class="likes">3000 likes = ₹87</div>
-        <div class="likes">4000 likes = ₹116</div>
-        <div class="likes">5000 likes = ₹145</div>
-        <div class="likes">6000 likes = ₹174</div>
-        <div class="likes">7000 likes = ₹203</div>
-        <div class="likes">8000 likes = ₹232</div>
-        <div class="likes">9000 likes = ₹261</div>
-        <div class="likes">10000 likes = ₹290</div>
-        <div class="footer">
-            <p>Send your order to<br><strong>ig: space_x_not</strong></p>
-        </div>
-        <button class="button" onclick="scrollToTitle()">BACK</button>
-    </div>
-
-    <script>
-        function scrollToTitle() {
-            document.getElementById('title').scrollIntoView({ behavior: 'smooth' });
-        }
-    </script>
+    <h1>Welcome to My GitHub Page</h1>
+    <p>This is a sample page.</p>
 </body>
 </html>
+
+
